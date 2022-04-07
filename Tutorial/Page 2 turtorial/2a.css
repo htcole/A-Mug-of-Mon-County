@@ -1,0 +1,56 @@
+body{
+  background-image: url(img/insidegeneric.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#customer1{
+  position: absolute;
+  margin-top:167px;
+  left:410px;
+  width: 600px;
+  height: auto;
+}
+
+#counter {
+position:absolute;
+margin-top:800px;
+}
+
+#syrup{
+  position: absolute;
+width: 320px;
+left:1100px;
+top:660px;
+border-radius: 2px;
+}
+
+#expresso{
+  position: absolute;
+  width: 320px;
+  left:1300px;
+  top:660px;
+border-radius: 2px;
+}
+
+#jar{
+  position: absolute;
+  Width: 100px;
+  left:970px;
+  top:660px;
+}
+
+#expresso:hover{
+  transform: scale(1.2);
+}
+
+#syrup:hover{
+  transform: scale(1.2);
+}
+
+#recipe{
+position: absolute;
+  width:350px;
+  margin-left:1560px;
+  top:10px;
+}

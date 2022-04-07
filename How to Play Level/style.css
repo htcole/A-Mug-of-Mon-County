@@ -1,0 +1,176 @@
+body {
+  background-color: #D7AE88;
+  color: #7C3A29;
+}
+
+a {
+  color: #E8E8E8;
+  font-family: Sundaycoffee;
+}
+
+h1 {
+  font-family: Sundaycoffee;
+}
+
+h2 {
+  font-family: Sundaycoffee;
+}
+
+h3 {
+  font-family: Sundaycoffee;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: Sundaycoffee; src: url(fonts/'Sundaycoffee.ttf');
+}
+
+#storefront_AlmostHeaven {
+  position: absolute;
+  width: 200px;
+  left: 1000px;
+  top: 30px;
+}
+
+#storefront_antiquitea {
+  position: absolute;
+  width: 200px;
+  left: 660px;
+  top: 120px;
+}
+
+#storefront_grind {
+  position: absolute;
+  width: 200px;
+  left: 870px;
+  top: 290px;
+}
+
+#cafe {
+  background-color: #B36924;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+  top: 390px;
+  left: 220px;
+}
+
+#cafe:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#how_to_play_button {
+  width: 200px;
+  position: absolute;
+  left: 170px;
+  top: 450px;
+}
+
+#how_to_play_button:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#continue {
+  background-color: #D7AE88;
+  color: #7C3A29;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#continue:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#selection1 {
+  background-color: #D7AE88;
+  color: #7C3A29;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#selection1:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#selection2 {
+  background-color: #D7AE88;
+  color: #7C3A29;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#selection2:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#object1 {
+  position: absolute;
+  width: 80px;
+}
+
+#object1:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#object2 {
+  position: absolute;
+  width: 80px;
+}
+
+#object2:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#recipe {
+  position: absolute;
+  width: 250px;
+  left: 1090px;
+  top: 10px;
+}
+
+#tipjar {
+  position: absolute;
+  width: 100px;
+}
+
+#return {
+  width: 250px;
+  position: absolute;
+  top: 420px;
+  left: 1080px;
+}
+
+#return:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}

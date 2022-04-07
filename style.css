@@ -1,0 +1,91 @@
+body {
+  background-color: #D6BAA1;
+  color: #7C3A29;
+}
+
+a {
+  color: #E8E8E8;
+  font-family: Sundaycoffee;
+}
+
+h1 {
+  font-family: Sundaycoffee;
+}
+
+h3 {
+  font-family: Sundaycoffee;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: Sundaycoffee; src: url(fonts/'Sundaycoffee.ttf');
+}
+
+#storefront_AlmostHeaven {
+  position: absolute;
+  width: 250px;
+  left: 820px;
+  top: 370px;
+}
+
+#storefront_antiquitea {
+  position: absolute;
+  width: 250px;
+  left: 200px;
+  top: 60px;
+}
+
+#storefront_grind {
+  position: absolute;
+  width: 250px;
+  left: 950px;
+  top: 80px;
+}
+
+#cafe {
+  background-color: #B36924;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+  top: 390px;
+  left: 220px;
+}
+
+#cafe:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#how_to_play_button {
+  width: 500px;
+  position: absolute;
+  top: 310px;
+  left: 800px;
+}
+
+#how_to_play_button:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
+
+#continue {
+  background-color: #B36924;
+  width: 150px;
+  height: 68.5px;
+  border: 8px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#continue:hover {
+  transform: scale(1.2);
+    border-radius: 2px;
+}
